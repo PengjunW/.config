@@ -15,7 +15,7 @@ ranger/colorschemes/__pycache__/*
 ranger/.vim/*
 !/tmux/
 !/zsh/
-!/doc/
+!/docs/
 !/README.md
 !/.gitignore
 *.pyo

@@ -1,0 +1,21 @@
+# -------
+# Modules
+# -------
+
+zmodule environment
+zmodule git
+zmodule input
+zmodule termtitle
+zmodule utility
+zmodule git-info
+zmodule steeef
+zmodule completion
+
+zmodule zsh-users/zsh-completions
+zmodule zdharma/fast-syntax-highlighting
+zmodule zsh-users/zsh-autosuggestions
+zmodule zsh-users/zsh-history-substring-search
+zmodule hlissner/zsh-autopair
+zmodule pabloariasal/zfm
+zmodule Aloxaf/fzf-tab
+

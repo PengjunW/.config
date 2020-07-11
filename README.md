@@ -1,0 +1,2 @@
+# dotfiles
+Mac os config

@@ -1,0 +1,20 @@
+# ignore everything
+/*
+/*/
+
+# ... but these:
+!/alacritty/
+!/kitty/
+!/nvim/
+nvim/tmp/*
+nvim/autoload/*
+nvim/plugged/*
+!/ranger/
+ranger/plugins/__pycache__/*
+ranger/colorschemes/__pycache__/*
+ranger/.vim/*
+!/tmux/
+!/zsh/
+!/README.md
+!/.gitignore
+*.pyo

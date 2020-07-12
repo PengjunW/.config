@@ -80,7 +80,6 @@ brew install neovim
 
 - **Insert Mode**
 
-
 | **Key**                         | **Actin**              |
 |---------------------------------|------------------------|
 | <kbd>jj</kbd>                   | enter into normal mode |
@@ -97,13 +96,11 @@ brew install neovim
 
 - **Insert Mode** 
 
-
 | **Key**       | **Actin**                          |
 |---------------|------------------------------------|
 | <kbd>^a</kbd> | Move cursor to the end of the line |
 
 - **Command Mode** 
-
 
 | **Key**       | **Actin**                             |
 |---------------|---------------------------------------|
@@ -158,7 +155,6 @@ brew install neovim
 #### Python
 - **Python-mode** 
 
-
 | **Key**                        | **Action**         |
 |--------------------------------|--------------------|
 | <kbd>space</kbd> +<kbd>b</kbd> | breakpoint         |
@@ -168,7 +164,7 @@ brew install neovim
 
 #### File navigation
 - **Fzf** 
-
+![fzf](./docs/screenshots/fzf_1.png) 
 
 | **Key**                         | **Action**       |
 |---------------------------------|------------------|
@@ -190,8 +186,6 @@ brew install neovim
 | <kbd>v</kbd>   | open hsplit            |
 
 - **Rnvimr** 
-
-
  
 | **Key**      | **Action**  |
 |--------------|-------------|

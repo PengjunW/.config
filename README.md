@@ -142,5 +142,57 @@ brew install neovim
 #### AutoCompletion
 - **COC** 
 
+| **Key**                        | **Action**              |
+|--------------------------------|-------------------------|
+| <kbd>space</kbd> +<kbd>y</kbd> | the history of cutboard |
+| <kbd>gd</kbd>                  | go to definition        |
+| <kbd>gy</kbd>                  | go to type definition   |
+| <kbd>gt</kbd>                  | go to implementation    |
+| <kbd>^gr</kbd>                 | go to references        |
+| <kbd>ts</kbd>                  | translator              |
+| <kbd>F</kbd>                   | show documentation      |
+| <kbd>^l</kbd>                  | snippets expand         |
+| <kbd>^e</kbd>                  | snippets select         |
+| <kbd>^j</kbd>                  | snippets expand jump    |
+
+#### Python
+- **Python-mode** 
 
 
+| **Key**                        | **Action**         |
+|--------------------------------|--------------------|
+| <kbd>space</kbd> +<kbd>b</kbd> | breakpoint         |
+| <kbd>r</kbd>                   | run pyhon          |
+| <kbd>F</kbd>                   | show documentation |
+| <kbd>^]</kbd>                  | go to definition   |
+
+#### File navigation
+- **Fzf** 
+
+
+| **Key**                         | **Action**       |
+|---------------------------------|------------------|
+| <kbd>space</kbd> +<kbd>fh</kbd> | file history     |
+| <kbd>space</kbd> +<kbd>ff</kbd> | find files       |
+| <kbd>space</kbd> +<kbd>tc</kbd> | color schemes    |
+| <kbd>space</kbd> +<kbd>fa</kbd> | find words       |
+| <kbd>space</kbd> +<kbd>l</kbd>  | find line        |
+| <kbd>space</kbd> +<kbd>;</kbd>  | command historys |
+
+- **Defx** 
+
+| **Key**        | **Action**             |
+|----------------|------------------------|
+| <kbd>ttt</kbd> | toggle file navigation |
+| <kbd>ttu</kbd> | toggle file navigation |
+| <kbd>dd</kbd>  | remove into trash      |
+| <kbd>o</kbd>   | open vsplit            |
+| <kbd>v</kbd>   | open hsplit            |
+
+- **Rnvimr** 
+
+
+ 
+| **Key**      | **Action**  |
+|--------------|-------------|
+| <kbd>R</kbd> | open ranger |

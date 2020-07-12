@@ -422,7 +422,9 @@ xmap ac <Plug>(coc-classobj-a)
 omap ac <Plug>(coc-classobj-a)
 
 " Useful commands
-" 跳转到定义位置
+" 剪贴板历史记录
+nnoremap <silent> <space>y :<C-u>CocList -A --normal yank<cr>
+"跳转到定义位置
 nmap <silent> gd <Plug>(coc-definition)
 " 跳转到类型定义的位置
 nmap <silent> gy <Plug>(coc-type-definition)

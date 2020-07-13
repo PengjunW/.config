@@ -85,7 +85,7 @@ brew install neovim
 | <kbd>jj</kbd>                   | enter into normal mode |
 | <kbd>space</kbd> +<kbd>wq</kbd> | save the file          |
 
-#### Cursor Movemont
+#### Cursor Movement
 - **Normal Mode**
 
 | **Key**                    | **Actin**                       |
@@ -162,6 +162,13 @@ brew install neovim
 | <kbd>F</kbd>                   | show documentation |
 | <kbd>^]</kbd>                  | go to definition   |
 
+- **AutoFormat** 
+
+
+| **Key**                        | **Action** |
+|--------------------------------|------------|
+| <kbd>space</kbd> +<kbd>p</kbd> | autoformat |
+
 #### File navigation
 - **Fzf** 
 ![fzf](./docs/screenshots/fzf_1.png) 
@@ -190,3 +197,18 @@ brew install neovim
 | **Key**      | **Action**  |
 |--------------|-------------|
 | <kbd>R</kbd> | open ranger |
+
+#### Taglist
+- **Vista** 
+
+| **Key**                        | **Action**   |
+|--------------------------------|--------------|
+| <kbd>space</kbd> +<kbd>v</kbd> | toggle vista |
+
+#### Editor Enhancement
+- **vim-easymotion** 
+
+
+| **Key**       | **Action**    |
+|---------------|---------------|
+| <kbd>ss</kbd> | find keywords |

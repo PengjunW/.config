@@ -11,6 +11,7 @@ nvim/autoload/*
 nvim/plugged/*
 !/ranger/
 ranger/plugins/__pycache__/*
+ranger/__pycache__/*
 ranger/colorschemes/__pycache__/*
 ranger/.vim/*
 !/tmux/

@@ -324,6 +324,9 @@ Plug 'brooth/far.vim', { 'on': ['F', 'Far', 'Fardo'] }
 " Bookmarks
 Plug 'MattesGroeger/vim-bookmarks'
 
+" git
+Plug 'tpope/vim-fugitive'
+
 call plug#end()
 
 
@@ -348,6 +351,13 @@ hi Normal ctermbg=NONE guibg=NONE
 set laststatus=2
 let g:lightline = {
       \ 'colorscheme': 'deus',
+			\ 'active': {
+      \   'left': [ [ 'mode', 'paste' ],
+      \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
+      \ },
+      \ 'component_function': {
+      \   'gitbranch': 'FugitiveHead'
+      \ },
       \ }
 
 " ===

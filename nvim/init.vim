@@ -78,7 +78,7 @@ if has('persistent_undo')
         set undodir=~/.config/nvim/tmp/undo,.
 endif
 " 刷新交换文件所需的毫秒数
-set updatetime=1000
+set updatetime=100
 " 允许光标出现在最后一个字符的后面
 set virtualedit=block,onemore
 " 关闭文件又打开光标会自动回到关闭前的位置
@@ -417,7 +417,7 @@ else
 endif
 
 " Use <c-space> to trigger completion.
-inoremap <silent><expr> <c-space> coc#refresh()
+inoremap <silent><expr> <c-o> coc#refresh()
 
 " Text Objects
 " n_coc-funcobj-i 选择函数内所有行，默认映射到if
